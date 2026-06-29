@@ -190,3 +190,50 @@ window.onload = function () {
     console.log("Welcome to ChitraBazzi ❤️");
 
 };
+
+// ==========================
+// Festival Banner Button
+// ==========================
+
+const festivalBtn = document.querySelector(".festival-btn");
+
+if (festivalBtn) {
+
+    festivalBtn.addEventListener("click", function () {
+
+        const deals = document.getElementById("best-sellers");
+
+        if (deals) {
+
+            deals.scrollIntoView({
+                behavior: "smooth"
+            });
+
+        }
+
+    });
+
+}
+
+
+// ==========================
+// Why Us Card Animation
+// ==========================
+
+const whyCards = document.querySelectorAll(".why-card");
+
+whyCards.forEach(card => {
+
+    card.addEventListener("mouseenter", function () {
+
+        card.style.transform = "translateY(-8px)";
+
+    });
+
+    card.addEventListener("mouseleave", function () {
+
+        card.style.transform = "translateY(0)";
+
+    });
+
+});
