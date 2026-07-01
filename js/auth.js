@@ -126,9 +126,19 @@ valid=false;
 
 if(valid){
 
-alert("Login Successful! (Frontend Demo)");
+const user = {
 
-window.location.href="profile.html";
+name: email.split("@")[0],
+
+email: email
+
+};
+
+localStorage.setItem("currentUser", JSON.stringify(user));
+
+alert("Login Successful!");
+
+window.location.href = "profile.html";
 
 }
 
@@ -353,6 +363,27 @@ form.requestSubmit();
 });
 
 });
+
+/* ======================================
+   PROFILE DATA
+====================================== */
+
+const currentUser = JSON.parse(localStorage.getItem("currentUser"));
+
+if (currentUser) {
+
+    const profileName = document.getElementById("profileName");
+    const profileEmail = document.getElementById("profileEmail");
+
+    if (profileName) {
+        profileName.value = currentUser.name;
+    }
+
+    if (profileEmail) {
+        profileEmail.value = currentUser.email;
+    }
+
+}
 
 
 /* ======================================
