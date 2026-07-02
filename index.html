@@ -1,922 +1,58 @@
-    <!DOCTYPE html>
-    <html lang="en">
+        <!DOCTYPE html>
+        <html lang="en">
 
-    <head>
+        <head>
 
-        <meta charset="UTF-8">
+            <meta charset="UTF-8">
 
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <title>ChitraBazzi | Premium Handmade Gifts</title>
+            <title>ChitraBazzi | Premium Handmade Gifts</title>
 
-        <!-- Google Font -->
+            <!-- Google Font -->
 
-        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+            <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
 
-        <!-- Font Awesome -->
+            <!-- Font Awesome -->
 
-        <link rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+            <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 
-        <!-- CSS -->
+            <!-- CSS -->
 
-        <link rel="stylesheet" href="css/style.css">
+            <link rel="stylesheet" href="css/style.css">
+            <link rel="stylesheet" href="css/dark-theme.css">
+            
 
-    </head>
+        </head>
 
-    <body>
+        <body>
 
-    <!-- ========================================= -->
-    <!-- Announcement Bar -->
-    <!-- ========================================= -->
-
-    <div class="announcement-bar">
-
-        ✨ Free Shipping Above ₹999 | Handmade With ❤️ | Premium Handmade Gifts
-
-    </div>
-
-    <!-- ========================================= -->
-    <!-- Header -->
-    <!-- ========================================= -->
-
-    <header>
-
-        <nav class="navbar">
-
-            <div class="logo">
-
-                <h2>ChitraBazzi</h2>
-
-            </div>
-
-            <ul class="nav-links">
-
-                <li><a href="#home">Home</a></li>
-
-                <li><a href="#categories">Categories</a></li>
-
-                <li><a href="#best-sellers">Best Sellers</a></li>
-
-                <li><a href="#new-arrivals">New Arrivals</a></li>
-
-                <li><a href="#reviews">Reviews</a></li>
-
-                <li><a href="#contact">Contact</a></li>
-
-            </ul>
-
-            <div class="icons">
-
-        <button id="searchBtn" class="icon-btn">
-            <i class="fa-solid fa-magnifying-glass"></i>
-        </button>
-
-        <a href="wishlist.html" class="icon-btn" id="wishlistIcon">
-            <i class="fa-regular fa-heart"></i>
-            <span id="wishlistCount">0</span>
-        </a>
-
-        <a href="cart.html" class="icon-btn">
-            <i class="fa-solid fa-cart-shopping"></i>
-            <span id="cartCount">0</span>
-        </a>
-
-        <a href="login.html" class="icon-btn">
-            <i class="fa-regular fa-user"></i>
-        </a>
-
-    </div>
-
-        </nav>
-
-    </header>
-
-    <!-- Search Popup -->
-
-    <div id="searchPopup" class="search-popup">
-
-        <div class="search-popup-inner">
-
-            <div class="search-box">
-
-                <input
-                    type="text"
-                    id="searchInput"
-                    placeholder="Search products..."
-                    autocomplete="off">
-
-                <button id="closeSearch" type="button" aria-label="Close search">
-
-                    <i class="fa-solid fa-xmark"></i>
-
-                </button>
-
-            </div>
-
-            <div id="searchResults" class="search-results"></div>
-
-            <p id="searchNoResult" class="search-no-result">No products found.</p>
-
-        </div>
-
-    </div>
-
-
-    <section class="festival-banner">
-
-        <div class="festival-overlay">
-
-            <span class="offer-tag">🎉 Festival Offer</span>
-
-            <h2>Celebrate Every Occasion With Handmade Gifts</h2>
-
-            <p>
-                Flat <strong>20% OFF</strong> on Personalized Handmade Gifts.
-                Free Shipping on orders above ₹999.
-            </p>
-
-            <button class="festival-btn">Shop Collection</button>
-
-        </div>
-
-    </section>
-    <!-- ========================================= -->
-    <!-- Hero Section -->
-    <!-- ========================================= -->
-
-    <section id="home" class="hero">
-
-        <div class="hero-left">
-
-            <span class="tag">
-
-                Handmade With Love ❤️
-
-            </span>
-
-            <h1>
-
-                Premium Handmade
-
-                <br>
-
-                Gifts &
-
-                <span>Crafts</span>
-
-            </h1>
-
-            <p>
-
-                Discover beautiful handmade gifts,
-                resin art, crochet creations,
-                personalized products and premium home décor
-                specially crafted for your loved ones.
-
-            </p>
-
-            <div class="hero-buttons">
-
-                <button class="shop-btn">
-
-                    Shop Now
-
-                </button>
-
-                <button class="explore-btn">
-
-                    Explore Collection
-
-                </button>
-
-            </div>
-
-        </div>
-
-        <div class="hero-right">
-
-            <img src="https://picsum.photos/600/500?random=1"
-            alt="Hero Image">
-
-        </div>
-
-    </section>
-
-    <!-- Updated Today's Offer Section -->
-
-    <section class="today-offer">
-
-        <div class="offer-left">
-
-            <span class="offer-badge">
-                🔥 Today's Offer
-            </span>
-
-            <h2>
-                Flat <span>30% OFF</span>
-            </h2>
-
-            <p>
-                Get amazing discounts on handmade gifts, resin art,
-                crochet flowers, photo frames and many more.
-                Limited time offer!
-            </p>
-
-            <a href="#products" class="offer-btn">
-                Shop Now
-            </a>
-
-        </div>
-
-        <div class="offer-right">
-
-            <img src="https://images.unsplash.com/photo-1512436991641-6745cdb1723f?w=700"
-            alt="Offer">
-
-        </div>
-
-    </section>
+        <!-- ========================================= -->
+        <!-- Announcement Bar -->
         <!-- ========================================= -->
 
-    <!-- ========================================= -->
-    <!-- Why Choose ChitraBazzi -->
-    <!-- ========================================= -->
+        <div class="announcement-bar">
 
-    <section class="why-us">
-
-        <div class="section-title">
-
-            <h2>Why Choose ChitraBazzi?</h2>
-
-            <p>
-                We don't just sell gifts—we create unforgettable memories with
-                handcrafted products made with love and care.
-            </p>
+            ✨ Free Shipping Above ₹999 | Handmade With ❤️ | Premium Handmade Gifts
 
         </div>
 
-        <div class="why-container">
+        <!-- ========================================= -->
+        <!-- Header -->
+        <!-- ========================================= -->
 
-            <div class="why-card">
+        <header>
 
-                <i class="fa-solid fa-gift"></i>
+            <nav class="navbar">
 
-                <h3>100% Handmade Products</h3>
+                <div class="logo">
 
-                <p>
-                    Every gift is carefully handcrafted with premium materials,
-                    ensuring uniqueness and exceptional quality.
-                </p>
+                    <h2>ChitraBazzi</h2>
 
-            </div>
+                </div>
 
-            <div class="why-card">
-
-                <i class="fa-solid fa-pen-ruler"></i>
-
-                <h3>Personalized Designs</h3>
-
-                <p>
-                    Customize your gifts with names, photos, messages,
-                    and special themes for every occasion.
-                </p>
-
-            </div>
-
-            <div class="why-card">
-
-                <i class="fa-solid fa-truck-fast"></i>
-
-                <h3>Fast & Secure Delivery</h3>
-
-                <p>
-                    We deliver your gifts safely with premium packaging
-                    and timely shipping across India.
-                </p>
-
-            </div>
-
-            <div class="why-card">
-
-                <i class="fa-solid fa-headset"></i>
-
-                <h3>24×7 Customer Support</h3>
-
-                <p>
-                    Our dedicated support team is always ready to help you
-                    before and after your purchase.
-                </p>
-
-            </div>
-
-        </div>
-
-    </section>
-
-
-    <!-- ========================================= -->
-    <!-- Categories -->
-    <!-- ========================================= -->
-
-    <section id="categories" class="categories">
-
-        <div class="section-title">
-
-            <h2>
-
-                Trending Categories
-
-            </h2>
-
-            <p>
-
-                Shop gifts for every special occasion.
-
-            </p>
-
-        </div>
-
-        <div class="category-container">
-
-            <div class="category-card">
-
-                <img src="https://picsum.photos/150?random=2">
-
-                <h3 class="category-name">Birthday</h3>
-
-            </div>
-
-            <div class="category-card">
-
-                <img src="https://picsum.photos/150?random=3">
-
-                <h3 class="category-name">Wedding</h3>
-
-            </div>
-
-            <div class="category-card">
-
-                <img src="https://picsum.photos/150?random=4">
-
-                <h3 class="category-name">Resin Art</h3>
-
-            </div>
-
-            <div class="category-card">
-
-                <img src="https://picsum.photos/150?random=5">
-
-                <h3 class="category-name">Crochet</h3>
-
-            </div>
-
-            <div class="category-card">
-
-                <img src="https://picsum.photos/150?random=6">
-
-                <h3 class="category-name">Home Decor</h3>
-
-            </div>
-
-            <div class="category-card">
-
-                <img src="https://picsum.photos/150?random=7">
-
-                <h3 class="category-name">Personalized</h3>
-
-            </div>
-
-        </div>
-
-    </section>
-
-    <!-- ================= Part 2 Starts Here ================= -->
-    <!-- ========================================= -->
-    <!-- Best Sellers -->
-    <!-- ========================================= -->
-
-    <section id="best-sellers" class="best-sellers">
-
-        <div class="section-title">
-
-            <h2>Best Sellers</h2>
-
-            <p>Our most loved handmade products.</p>
-
-        </div>
-
-        <div class="product-container">
-
-            <div class="product-card searchable">
-
-                <img src="https://picsum.photos/300/300?random=11" alt="">
-
-                <span class="badge">Best Seller</span>
-
-                <h3 class="product-name">Resin Photo Frame</h3>
-
-                <p>Beautiful customized handmade frame.</p>
-
-                <h4>₹899</h4>
-
-                <button
-        class="wishlist-btn"
-        data-id="1"
-        data-name="Resin Photo Frame"
-        data-price="899"
-        data-image="https://picsum.photos/300/300?random=11">
-
-        <i class="fa-regular fa-heart"></i>
-
-    </button>
-
-                <button
-                    class="cart-btn"
-                    data-id="1"
-                    data-name="Resin Photo Frame"
-                    data-price="899"
-                    data-image="https://picsum.photos/300/300?random=11">Add To Cart</button>
-
-            </div>
-
-            <div class="product-card searchable">
-
-                <img src="https://picsum.photos/300/300?random=12" alt="">
-
-                <span class="badge">Popular</span>
-
-                <h3 class="product-name">Crochet Flower</h3>
-
-                <p>Everlasting handmade flowers.</p>
-
-                <h4>₹699</h4>
-
-                <button
-        class="wishlist-btn"
-        data-id="2"
-        data-name="Crochet Flower"
-        data-price="699"
-        data-image="https://picsum.photos/300/300?random=12">
-
-        <i class="fa-regular fa-heart"></i>
-
-    </button>
-
-                <button
-                    class="cart-btn"
-                    data-id="2"
-                    data-name="Crochet Flower"
-                    data-price="699"
-                    data-image="https://picsum.photos/300/300?random=12">Add To Cart</button>
-
-            </div>
-
-            <div class="product-card searchable">
-
-                <img src="https://picsum.photos/300/300?random=13" alt="">
-
-                <span class="badge">Trending</span>
-
-                <h3 class="product-name">Luxury Gift Box</h3>
-
-                <p>Perfect handmade surprise.</p>
-
-                <h4>₹1199</h4>
-
-                <button
-        class="wishlist-btn"
-        data-id="3"
-        data-name="Luxury Gift Box"
-        data-price="1199"
-        data-image="https://picsum.photos/300/300?random=13">
-
-        <i class="fa-regular fa-heart"></i>
-
-    </button>
-
-                <button
-                    class="cart-btn"
-                    data-id="3"
-                    data-name="Luxury Gift Box"
-                    data-price="1199"
-                    data-image="https://picsum.photos/300/300?random=13">Add To Cart</button>
-
-            </div>
-
-            <div class="product-card searchable">
-
-                <img src="https://picsum.photos/300/300?random=14" alt="">
-
-                <span class="badge">Limited</span>
-
-                <h3 class="product-name">Name Frame</h3>
-
-                <p>Custom wooden frame.</p>
-
-                <h4>₹999</h4>
-
-                <button
-        class="wishlist-btn"
-        data-id="4"
-        data-name="Name Frame"
-        data-price="999"
-        data-image="https://picsum.photos/300/300?random=14">
-
-        <i class="fa-regular fa-heart"></i>
-
-    </button>
-            
-                <button
-                    class="cart-btn"
-                    data-id="4"
-                    data-name="Name Frame"
-                    data-price="999"
-                    data-image="https://picsum.photos/300/300?random=14">Add To Cart</button>
-
-            </div>
-
-        </div>
-
-    </section>
-
-    <!-- ========================================= -->
-    <!-- New Arrivals -->
-    <!-- ========================================= -->
-
-    <section id="new-arrivals" class="new-arrivals">
-
-        <div class="section-title">
-
-            <h2>New Arrivals</h2>
-
-            <p>Fresh handcrafted collections.</p>
-
-        </div>
-
-        <div class="product-container">
-
-            <div class="product-card searchable">
-
-                <img src="https://picsum.photos/300/300?random=21" alt="">
-
-                <h3 class="product-name">Mini Resin Clock</h3>
-
-                <h4>₹799</h4>
-
-                <button
-        class="wishlist-btn"
-        data-id="5"
-        data-name="Mini Resin Clock"
-        data-price="799"
-        data-image="https://picsum.photos/300/300?random=21">
-
-        <i class="fa-regular fa-heart"></i>
-
-    </button>
-
-                <button
-                    class="cart-btn"
-                    data-id="5"
-                    data-name="Mini Resin Clock"
-                    data-price="799"
-                    data-image="https://picsum.photos/300/300?random=21">Add To Cart</button>
-
-            </div>
-
-            <div class="product-card searchable">
-
-                <img src="https://picsum.photos/300/300?random=22" alt="">
-
-                <h3 class="product-name">Wooden Name Plate</h3>
-
-                <h4>₹1099</h4>
-
-                <button
-        class="wishlist-btn"
-        data-id="6"
-        data-name="Wooden Name Plate"
-        data-price="1099"
-        data-image="https://picsum.photos/300/300?random=22">
-
-        <i class="fa-regular fa-heart"></i>
-
-    </button>
-
-                <button
-                    class="cart-btn"
-                    data-id="6"
-                    data-name="Wooden Name Plate"
-                    data-price="1099"
-                    data-image="https://picsum.photos/300/300?random=22">Add To Cart</button>
-
-            </div>
-
-            <div class="product-card searchable">
-
-                <img src="https://picsum.photos/300/300?random=23" alt="">
-
-                <h3 class="product-name">Couple Frame</h3>
-
-                <h4>₹1299</h4>
-
-                <button
-        class="wishlist-btn"
-        data-id="7"
-        data-name="Couple Frame"
-        data-price="1299"
-        data-image="https://picsum.photos/300/300?random=23">
-
-        <i class="fa-regular fa-heart"></i>
-
-    </button>
-
-                <button
-                    class="cart-btn"
-                    data-id="7"
-                    data-name="Couple Frame"
-                    data-price="1299"
-                    data-image="https://picsum.photos/300/300?random=23">Add To Cart</button>
-
-            </div>
-
-            <div class="product-card searchable">
-
-                <img src="https://picsum.photos/300/300?random=24" alt="">
-
-                <h3 class="product-name">Gift Hamper</h3>
-
-                <h4>₹1499</h4>
-
-                <button
-        class="wishlist-btn"
-        data-id="8"
-        data-name="Gift Hamper"
-        data-price="1499"
-        data-image="https://picsum.photos/300/300?random=24">
-
-        <i class="fa-regular fa-heart"></i>
-
-    </button>
-
-                <button
-                    class="cart-btn"
-                    data-id="8"
-                    data-name="Gift Hamper"
-                    data-price="1499"
-                    data-image="https://picsum.photos/300/300?random=24">Add To Cart</button>
-
-            </div>
-
-        </div>
-
-    </section>
-
-    <!-- ========================================= -->
-    <!-- Gift Builder -->
-    <!-- ========================================= -->
-
-    <section id="gift-builder" class="gift-builder">
-
-        <div class="section-title">
-
-            <h2>Build Your Personalized Gift</h2>
-
-            <p>Create a unique gift in a few easy steps.</p>
-
-        </div>
-
-        <form class="gift-form">
-
-            <input type="text" placeholder="Recipient Name">
-
-            <select>
-
-                <option>Select Occasion</option>
-
-                <option>Birthday</option>
-
-                <option>Wedding</option>
-
-                <option>Anniversary</option>
-
-            </select>
-
-            <select>
-
-                <option>Select Gift Type</option>
-
-                <option>Photo Frame</option>
-
-                <option>Resin Art</option>
-
-                <option>Crochet</option>
-
-            </select>
-
-            <textarea rows="4" placeholder="Write your message"></textarea>
-
-            <button type="submit">
-
-                Create Gift
-
-            </button>
-
-        </form>
-
-    </section>
-
-    <!-- ================= Part 3 Starts Here ================= -->
-    <!-- ========================================= -->
-    <!-- Limited Collection -->
-    <!-- ========================================= -->
-
-    <section id="limited-edition" class="limited-edition">
-
-        <div class="limited-banner">
-
-            <div class="limited-text">
-
-                <h2>Limited Edition Collection</h2>
-
-                <p>
-
-                    Elegant handcrafted gifts specially designed
-                    for your loved ones.
-
-                </p>
-
-                <button>Explore Collection</button>
-
-            </div>
-
-        </div>
-
-    </section>
-
-    <!-- ========================================= -->
-    <!-- Customer Reviews -->
-    <!-- ========================================= -->
-
-    <section id="reviews" class="reviews">
-
-        <div class="section-title">
-
-            <h2>What Our Customers Say</h2>
-
-            <p>Trusted by thousands of happy customers.</p>
-
-        </div>
-
-        <div class="review-container">
-
-            <div class="review-card">
-
-                <div class="stars">⭐⭐⭐⭐⭐</div>
-
-                <p>
-
-                    Beautiful handmade gifts.
-                    Excellent quality and packaging.
-
-                </p>
-
-                <h4>- Priya Sharma</h4>
-
-            </div>
-
-            <div class="review-card">
-
-                <div class="stars">⭐⭐⭐⭐⭐</div>
-
-                <p>
-
-                    Perfect personalized gift.
-                    Highly recommended.
-
-                </p>
-
-                <h4>- Rahul Verma</h4>
-
-            </div>
-
-            <div class="review-card">
-
-                <div class="stars">⭐⭐⭐⭐⭐</div>
-
-                <p>
-
-                    Amazing customer support
-                    and premium quality products.
-
-                </p>
-
-                <h4>- Neha Gupta</h4>
-
-            </div>
-
-        </div>
-
-    </section>
-
-    <!-- ========================================= -->
-    <!-- Instagram Gallery -->
-    <!-- ========================================= -->
-
-    <section id="gallery" class="gallery">
-
-        <div class="section-title">
-
-            <h2>Instagram Gallery</h2>
-
-            <p>Latest handmade creations.</p>
-
-        </div>
-
-        <div class="gallery-grid">
-
-            <img src="https://picsum.photos/300/300?random=31" alt="Gallery">
-
-            <img src="https://picsum.photos/300/300?random=32" alt="Gallery">
-
-            <img src="https://picsum.photos/300/300?random=33" alt="Gallery">
-
-            <img src="https://picsum.photos/300/300?random=34" alt="Gallery">
-
-            <img src="https://picsum.photos/300/300?random=35" alt="Gallery">
-
-            <img src="https://picsum.photos/300/300?random=36" alt="Gallery">
-
-        </div>
-
-    </section>
-
-    <!-- ================= Part 4 Starts Here ================= -->
-    <!-- ========================================= -->
-    <!-- Newsletter -->
-    <!-- ========================================= -->
-
-    <section id="contact" class="newsletter">
-
-        <div class="newsletter-content">
-
-            <h2>Subscribe To Our Newsletter</h2>
-
-            <p>
-
-                Get updates about our latest handmade
-                gifts, offers and new arrivals.
-
-            </p>
-
-            <form class="newsletter-form">
-
-                <input
-                    type="email"
-                    placeholder="Enter your email"
-                    required>
-
-                <button type="submit">
-
-                    Subscribe
-
-                </button>
-
-            </form>
-
-        </div>
-
-    </section>
-
-    <!-- ========================================= -->
-    <!-- Footer -->
-    <!-- ========================================= -->
-
-    <footer>
-
-        <div class="footer-container">
-
-            <div class="footer-box">
-
-                <h2>ChitraBazzi</h2>
-
-                <p>
-
-                    Premium Handmade Gifts,
-                    Resin Art,
-                    Crochet Creations,
-                    Personalized Products
-                    and Home Decor.
-
-                </p>
-
-            </div>
-
-            <div class="footer-box">
-
-                <h3>Quick Links</h3>
-
-                <ul>
+                <ul class="nav-links">
 
                     <li><a href="#home">Home</a></li>
 
@@ -924,87 +60,1093 @@
 
                     <li><a href="#best-sellers">Best Sellers</a></li>
 
+                    <li><a href="#new-arrivals">New Arrivals</a></li>
+
                     <li><a href="#reviews">Reviews</a></li>
+
+                    <li><a href="#about">About Us</a></li>
+
 
                     <li><a href="#contact">Contact</a></li>
 
                 </ul>
 
-            </div>
+            <div class="icons">
 
-            <div class="footer-box">
+        <button id="searchBtn" class="icon-btn">
+            <i class="fa-solid fa-magnifying-glass"></i>
+        </button>
 
-                <h3>Customer Support</h3>
+        <a href="wishlist.html" class="icon-btn">
+            <i class="fa-regular fa-heart"></i>
+        </a>
 
-                <ul>
+        <a href="cart.html" class="icon-btn">
+            <i class="fa-solid fa-cart-shopping"></i>
+        </a>
 
-                    <li>FAQs</li>
+        <a href="login.html" class="icon-btn">
+            <i class="fa-regular fa-user"></i>
+        </a>
 
-                    <li>Shipping Policy</li>
+        <a href="settings.html" class="icon-btn" title="Settings">
+            <i class="fa-solid fa-gear"></i>
+        </a>
 
-                    <li>Return Policy</li>
+    </div>
 
-                    <li>Privacy Policy</li>
+            </nav>
 
-                </ul>
+        </header>
 
-            </div>
+        <!-- Search Popup -->
 
-            <div class="footer-box">
+        <div id="searchPopup" class="search-popup">
 
-                <h3>Contact</h3>
+            <div class="search-popup-inner">
 
-                <p>📍 New Delhi, India</p>
+                <div class="search-box">
 
-                <p>📞 +91 8744992822</p>
+                    <input
+                        type="text"
+                        id="searchInput"
+                        placeholder="Search products..."
+                        autocomplete="off">
 
-                <p>✉ support@chitrabazzi.com</p>
+                    <button id="closeSearch" type="button" aria-label="Close search">
+
+                        <i class="fa-solid fa-xmark"></i>
+
+                    </button>
+
+                </div>
+
+                <div id="searchResults" class="search-results"></div>
+
+                <p id="searchNoResult" class="search-no-result">No products found.</p>
 
             </div>
 
         </div>
 
-        <hr>
 
-        <div class="copyright">
+        <section class="festival-banner">
 
-            <p>
+            <div class="festival-overlay">
 
-                © 2026 ChitraBazzi. All Rights Reserved.
+                <span class="offer-tag">🎉 Festival Offer</span>
 
-            </p>
+                <h2>Celebrate Every Occasion With Handmade Gifts</h2>
+
+                <p>
+                    Flat <strong>20% OFF</strong> on Personalized Handmade Gifts.
+                    Free Shipping on orders above ₹999.
+                </p>
+
+                <button class="festival-btn">Shop Collection</button>
+
+            </div>
+
+        </section>
+        <!-- ========================================= -->
+        <!-- Hero Section -->
+        <!-- ========================================= -->
+
+        <section id="home" class="hero">
+
+            <div class="hero-left">
+
+                <span class="tag">
+
+                    Handmade With Love ❤️
+
+                </span>
+
+                <h1>
+
+                    Premium Handmade
+
+                    <br>
+
+                    Gifts &
+
+                    <span>Crafts</span>
+
+                </h1>
+
+                <p>
+
+                    Discover beautiful handmade gifts,
+                    resin art, crochet creations,
+                    personalized products and premium home décor
+                    specially crafted for your loved ones.
+
+                </p>
+
+                <div class="hero-buttons">
+
+                    <button class="shop-btn">
+
+                        Shop Now
+
+                    </button>
+
+                    <button class="explore-btn">
+
+                        Explore Collection
+
+                    </button>
+
+                </div>
+
+            </div>
+
+            <div class="hero-right">
+
+                <img src="https://picsum.photos/600/500?random=1"
+                alt="Hero Image">
+
+            </div>
+
+        </section>
+
+        <!-- Updated Today's Offer Section -->
+
+        <section class="today-offer">
+
+            <div class="offer-left">
+
+                <span class="offer-badge">
+                    🔥 Today's Offer
+                </span>
+
+                <h2>
+                    Flat <span>30% OFF</span>
+                </h2>
+
+                <p>
+                    Get amazing discounts on handmade gifts, resin art,
+                    crochet flowers, photo frames and many more.
+                    Limited time offer!
+                </p>
+
+                <a href="#products" class="offer-btn">
+                    Shop Now
+                </a>
+
+            </div>
+
+            <div class="offer-right">
+
+                <img src="https://images.unsplash.com/photo-1512436991641-6745cdb1723f?w=700"
+                alt="Offer">
+
+            </div>
+
+        </section>
+            <!-- ========================================= -->
+
+        <!-- ========================================= -->
+        <!-- Why Choose ChitraBazzi -->
+        <!-- ========================================= -->
+
+        <section class="why-us">
+
+            <div class="section-title">
+
+                <h2>Why Choose ChitraBazzi?</h2>
+
+                <p>
+                    We don't just sell gifts—we create unforgettable memories with
+                    handcrafted products made with love and care.
+                </p>
+
+            </div>
+
+            <div class="why-container">
+
+                <div class="why-card">
+
+                    <i class="fa-solid fa-gift"></i>
+
+                    <h3>100% Handmade Products</h3>
+
+                    <p>
+                        Every gift is carefully handcrafted with premium materials,
+                        ensuring uniqueness and exceptional quality.
+                    </p>
+
+                </div>
+
+                <div class="why-card">
+
+                    <i class="fa-solid fa-pen-ruler"></i>
+
+                    <h3>Personalized Designs</h3>
+
+                    <p>
+                        Customize your gifts with names, photos, messages,
+                        and special themes for every occasion.
+                    </p>
+
+                </div>
+
+                <div class="why-card">
+
+                    <i class="fa-solid fa-truck-fast"></i>
+
+                    <h3>Fast & Secure Delivery</h3>
+
+                    <p>
+                        We deliver your gifts safely with premium packaging
+                        and timely shipping across India.
+                    </p>
+
+                </div>
+
+                <div class="why-card">
+
+                    <i class="fa-solid fa-headset"></i>
+
+                    <h3>24×7 Customer Support</h3>
+
+                    <p>
+                        Our dedicated support team is always ready to help you
+                        before and after your purchase.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ========================================= -->
+        <!-- Categories -->
+        <!-- ========================================= -->
+
+        <section id="categories" class="categories">
+
+            <div class="section-title">
+
+                <h2>
+
+                    Trending Categories
+
+                </h2>
+
+                <p>
+
+                    Shop gifts for every special occasion.
+
+                </p>
+
+            </div>
+
+            <div class="category-container">
+
+                <div class="category-card">
+
+                    <img src="https://picsum.photos/150?random=2">
+
+                    <h3 class="category-name">Birthday</h3>
+
+                </div>
+
+                <div class="category-card">
+
+                    <img src="https://picsum.photos/150?random=3">
+
+                    <h3 class="category-name">Wedding</h3>
+
+                </div>
+
+                <div class="category-card">
+
+                    <img src="https://picsum.photos/150?random=4">
+
+                    <h3 class="category-name">Resin Art</h3>
+
+                </div>
+
+                <div class="category-card">
+
+                    <img src="https://picsum.photos/150?random=5">
+
+                    <h3 class="category-name">Crochet</h3>
+
+                </div>
+
+                <div class="category-card">
+
+                    <img src="https://picsum.photos/150?random=6">
+
+                    <h3 class="category-name">Home Decor</h3>
+
+                </div>
+
+                <div class="category-card">
+
+                    <img src="https://picsum.photos/150?random=7">
+
+                    <h3 class="category-name">Personalized</h3>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- ================= Part 2 Starts Here ================= -->
+        <!-- ========================================= -->
+        <!-- Best Sellers -->
+        <!-- ========================================= -->
+
+        <section id="best-sellers" class="best-sellers">
+
+            <div class="section-title">
+
+                <h2>Best Sellers</h2>
+
+                <p>Our most loved handmade products.</p>
+
+            </div>
+
+            <div class="product-container">
+
+                <div class="product-card searchable">
+
+                    <img src="https://picsum.photos/300/300?random=11" alt="">
+
+                    <span class="badge">Best Seller</span>
+
+                    <h3 class="product-name">
+        <a href="product.html?id=1">
+            Resin Photo Frame
+        </a>
+    </h3>
+
+                    <p>Beautiful customized handmade frame.</p>
+
+                    <h4>₹899</h4>
+
+                    <button
+            class="wishlist-btn"
+            data-id="1"
+            data-name="Resin Photo Frame"
+            data-price="899"
+            data-image="https://picsum.photos/300/300?random=11">
+
+            <i class="fa-regular fa-heart"></i>
+
+        </button>
+
+                    <button
+                        class="cart-btn"
+                        data-id="1"
+                        data-name="Resin Photo Frame"
+                        data-price="899"
+                        data-image="https://picsum.photos/300/300?random=11">Add To Cart</button>
+
+                </div>
+
+                <div class="product-card searchable">
+
+                    <img src="https://picsum.photos/300/300?random=12" alt="">
+
+                    <span class="badge">Popular</span>
+
+                    <h3 class="product-name">
+        <a href="product.html?id=2">
+            Crochet Flower
+        </a>
+    </h3>
+
+                    <p>Everlasting handmade flowers.</p>
+
+                    <h4>₹699</h4>
+
+                    <button
+            class="wishlist-btn"
+            data-id="2"
+            data-name="Crochet Flower"
+            data-price="699"
+            data-image="https://picsum.photos/300/300?random=12">
+
+            <i class="fa-regular fa-heart"></i>
+
+        </button>
+
+                    <button
+                        class="cart-btn"
+                        data-id="2"
+                        data-name="Crochet Flower"
+                        data-price="699"
+                        data-image="https://picsum.photos/300/300?random=12">Add To Cart</button>
+
+                </div>
+
+                <div class="product-card searchable">
+
+                    <img src="https://picsum.photos/300/300?random=13" alt="">
+
+                    <span class="badge">Trending</span>
+
+                    <h3 class="product-name">
+        <a href="product.html?id=3">
+            Luxury Gift Box
+        </a>
+    </h3>
+
+                    <p>Perfect handmade surprise.</p>
+
+                    <h4>₹1199</h4>
+
+                    <button
+            class="wishlist-btn"
+            data-id="3"
+            data-name="Luxury Gift Box"
+            data-price="1199"
+            data-image="https://picsum.photos/300/300?random=13">
+
+            <i class="fa-regular fa-heart"></i>
+
+        </button>
+
+                    <button
+                        class="cart-btn"
+                        data-id="3"
+                        data-name="Luxury Gift Box"
+                        data-price="1199"
+                        data-image="https://picsum.photos/300/300?random=13">Add To Cart</button>
+
+                </div>
+
+                <div class="product-card searchable">
+
+                    <img src="https://picsum.photos/300/300?random=14" alt="">
+
+                    <span class="badge">Limited</span>
+
+                    <h3 class="product-name">
+        <a href="product.html?id=4">
+            Name Frame
+        </a>
+    </h3>
+
+                    <p>Custom wooden frame.</p>
+
+                    <h4>₹999</h4>
+
+                    <button
+            class="wishlist-btn"
+            data-id="4"
+            data-name="Name Frame"
+            data-price="999"
+            data-image="https://picsum.photos/300/300?random=14">
+
+            <i class="fa-regular fa-heart"></i>
+
+        </button>
+                
+                    <button
+                        class="cart-btn"
+                        data-id="4"
+                        data-name="Name Frame"
+                        data-price="999"
+                        data-image="https://picsum.photos/300/300?random=14">Add To Cart</button>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- ========================================= -->
+        <!-- New Arrivals -->
+        <!-- ========================================= -->
+
+        <section id="new-arrivals" class="new-arrivals">
+
+            <div class="section-title">
+
+                <h2>New Arrivals</h2>
+
+                <p>Fresh handcrafted collections.</p>
+
+            </div>
+
+            <div class="product-container">
+
+                <div class="product-card searchable">
+
+                    <img src="https://picsum.photos/300/300?random=21" alt="">
+
+                    <h3 class="product-name">
+        <a href="product.html?id=5">
+            Mini Resin Clock
+        </a>
+    </h3>
+
+                    <h4>₹799</h4>
+
+                    <button
+            class="wishlist-btn"
+            data-id="5"
+            data-name="Mini Resin Clock"
+            data-price="799"
+            data-image="https://picsum.photos/300/300?random=21">
+
+            <i class="fa-regular fa-heart"></i>
+
+        </button>
+
+                    <button
+                        class="cart-btn"
+                        data-id="5"
+                        data-name="Mini Resin Clock"
+                        data-price="799"
+                        data-image="https://picsum.photos/300/300?random=21">Add To Cart</button>
+
+                </div>
+
+                <div class="product-card searchable">
+
+                    <img src="https://picsum.photos/300/300?random=22" alt="">
+
+                    <h3 class="product-name">
+        <a href="product.html?id=6">
+            Wooden Name Plate
+        </a>
+    </h3>
+
+                    <h4>₹1099</h4>
+
+                    <button
+            class="wishlist-btn"
+            data-id="6"
+            data-name="Wooden Name Plate"
+            data-price="1099"
+            data-image="https://picsum.photos/300/300?random=22">
+
+            <i class="fa-regular fa-heart"></i>
+
+        </button>
+
+                    <button
+                        class="cart-btn"
+                        data-id="6"
+                        data-name="Wooden Name Plate"
+                        data-price="1099"
+                        data-image="https://picsum.photos/300/300?random=22">Add To Cart</button>
+
+                </div>
+
+                <div class="product-card searchable">
+
+                    <img src="https://picsum.photos/300/300?random=23" alt="">
+
+                    <h3 class="product-name">
+        <a href="product.html?id=7">
+            Couple Frame
+        </a>
+    </h3>
+
+                    <h4>₹1299</h4>
+
+                    <button
+            class="wishlist-btn"
+            data-id="7"
+            data-name="Couple Frame"
+            data-price="1299"
+            data-image="https://picsum.photos/300/300?random=23">
+
+            <i class="fa-regular fa-heart"></i>
+
+        </button>
+
+                    <button
+                        class="cart-btn"
+                        data-id="7"
+                        data-name="Couple Frame"
+                        data-price="1299"
+                        data-image="https://picsum.photos/300/300?random=23">Add To Cart</button>
+
+                </div>
+
+                <div class="product-card searchable">
+
+                    <img src="https://picsum.photos/300/300?random=24" alt="">
+
+                    <h3 class="product-name">
+        <a href="product.html?id=8">
+            Gift Hamper
+        </a>
+    </h3>
+
+                    <h4>₹1499</h4>
+
+                    <button
+            class="wishlist-btn"
+            data-id="8"
+            data-name="Gift Hamper"
+            data-price="1499"
+            data-image="https://picsum.photos/300/300?random=24">
+
+            <i class="fa-regular fa-heart"></i>
+
+        </button>
+
+                    <button
+                        class="cart-btn"
+                        data-id="8"
+                        data-name="Gift Hamper"
+                        data-price="1499"
+                        data-image="https://picsum.photos/300/300?random=24">Add To Cart</button>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- ========================================= -->
+        <!-- Gift Builder -->
+        <!-- ========================================= -->
+
+        <section id="gift-builder" class="gift-builder">
+
+            <div class="section-title">
+
+                <h2>Build Your Personalized Gift</h2>
+
+                <p>Create a unique gift in a few easy steps.</p>
+
+            </div>
+
+            <form class="gift-form">
+
+                <input type="text" placeholder="Recipient Name">
+
+                <select>
+
+                    <option>Select Occasion</option>
+
+                    <option>Birthday</option>
+
+                    <option>Wedding</option>
+
+                    <option>Anniversary</option>
+
+                </select>
+
+                <select>
+
+                    <option>Select Gift Type</option>
+
+                    <option>Photo Frame</option>
+
+                    <option>Resin Art</option>
+
+                    <option>Crochet</option>
+
+                </select>
+
+                <textarea rows="4" placeholder="Write your message"></textarea>
+
+                <button type="submit">
+
+                    Create Gift
+
+                </button>
+
+            </form>
+
+        </section>
+
+        <!-- ================= Part 3 Starts Here ================= -->
+        <!-- ========================================= -->
+        <!-- Limited Collection -->
+        <!-- ========================================= -->
+
+        <section id="limited-edition" class="limited-edition">
+
+            <div class="limited-banner">
+
+                <div class="limited-text">
+
+                    <h2>Limited Edition Collection</h2>
+
+                    <p>
+
+                        Elegant handcrafted gifts specially designed
+                        for your loved ones.
+
+                    </p>
+
+                    <button>Explore Collection</button>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- ========================================= -->
+        <!-- Customer Reviews -->
+        <!-- ========================================= -->
+
+        <section id="reviews" class="reviews">
+
+            <div class="section-title">
+
+                <h2>What Our Customers Say</h2>
+
+                <p>Trusted by thousands of happy customers.</p>
+
+            </div>
+
+            <div class="review-container">
+
+                <div class="review-card">
+
+                    <div class="stars">⭐⭐⭐⭐⭐</div>
+
+                    <p>
+
+                        Beautiful handmade gifts.
+                        Excellent quality and packaging.
+
+                    </p>
+
+                    <h4>- Priya Sharma</h4>
+
+                </div>
+
+                <div class="review-card">
+
+                    <div class="stars">⭐⭐⭐⭐⭐</div>
+
+                    <p>
+
+                        Perfect personalized gift.
+                        Highly recommended.
+
+                    </p>
+
+                    <h4>- Rahul Verma</h4>
+
+                </div>
+
+                <div class="review-card">
+
+                    <div class="stars">⭐⭐⭐⭐⭐</div>
+
+                    <p>
+
+                        Amazing customer support
+                        and premium quality products.
+
+                    </p>
+
+                    <h4>- Neha Gupta</h4>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- ========================================= -->
+        <!-- Instagram Gallery -->
+        <!-- ========================================= -->
+
+        <section id="gallery" class="gallery">
+
+            <div class="section-title">
+
+                <h2>Instagram Gallery</h2>
+
+                <p>Latest handmade creations.</p>
+
+            </div>
+
+            <div class="gallery-grid">
+
+                <img src="https://picsum.photos/300/300?random=31" alt="Gallery">
+
+                <img src="https://picsum.photos/300/300?random=32" alt="Gallery">
+
+                <img src="https://picsum.photos/300/300?random=33" alt="Gallery">
+
+                <img src="https://picsum.photos/300/300?random=34" alt="Gallery">
+
+                <img src="https://picsum.photos/300/300?random=35" alt="Gallery">
+
+                <img src="https://picsum.photos/300/300?random=36" alt="Gallery">
+
+            </div>
+
+        </section>
+
+        <!-- ================= Part 4 Starts Here ================= -->
+        <!-- ========================================= -->
+        <!-- Newsletter -->
+        <!-- ========================================= -->
+
+        <section id="contact" class="newsletter">
+
+            <div class="newsletter-content">
+
+                <h2>Subscribe To Our Newsletter</h2>
+
+                <p>
+
+                    Get updates about our latest handmade
+                    gifts, offers and new arrivals.
+
+                </p>
+
+                <form class="newsletter-form">
+
+                    <input
+                        type="email"
+                        placeholder="Enter your email"
+                        required>
+
+                    <button type="submit">
+
+                        Subscribe
+
+                    </button>
+
+                </form>
+
+            </div>
+
+        </section>
+
+
+        <!-- ========================================= -->
+    <!-- About Us -->
+    <!-- ========================================= -->
+
+    <section id="about" class="about">
+
+        <div class="section-title">
+
+            <h2>About ChitraBazzi</h2>
+
+            <p>Crafting meaningful gifts with creativity, quality and care.</p>
 
         </div>
 
-    </footer>
+        <div class="about-container">
 
-    <!-- ========================================= -->
-    <!-- Back To Top Button -->
-    <!-- ========================================= -->
+            <div class="about-content">
 
-    <button id="topBtn">
+                <h3>Our Story</h3>
 
-        ↑
+                <p>
 
-    </button>
+                    ChitraBazzi was created with the vision of making gifting more
+                    meaningful through thoughtful designs and carefully crafted
+                    creations. Every product is designed to celebrate special
+                    moments and create memories that last beyond the occasion.
+
+                </p>
+
+                <h3>Our Mission</h3>
+
+                <p>
+
+                    To provide premium handcrafted products, exceptional customer
+                    experience and reliable service while continuously improving
+                    creativity, quality and innovation.
+
+                </p>
+
+                <h3>Our Vision</h3>
+
+                <p>
+
+                    To become a trusted destination where people discover unique,
+                    creative and memorable gifting experiences for every
+                    celebration.
+
+                </p>
+
+            </div>
+
+            <div class="about-values">
+
+                <div class="about-card">
+
+                    <i class="fa-solid fa-lightbulb"></i>
+
+                    <h4>Innovation</h4>
+
+                    <p>Fresh ideas with modern handcrafted designs.</p>
+
+                </div>
+
+                <div class="about-card">
+
+                    <i class="fa-solid fa-medal"></i>
+
+                    <h4>Quality</h4>
+
+                    <p>Carefully designed products with attention to detail.</p>
+
+                </div>
+
+                <div class="about-card">
+
+                    <i class="fa-solid fa-heart"></i>
+
+                    <h4>Customer First</h4>
+
+                    <p>Every product is created with customer satisfaction in mind.</p>
+
+                </div>
+
+                <div class="about-card">
+
+                    <i class="fa-solid fa-handshake"></i>
+
+                    <h4>Trust</h4>
+
+                    <p>Building long-term relationships through honesty and reliability.</p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+        <!-- ========================================= -->
+        <!-- Footer -->
+        <!-- ========================================= -->
+
+        <footer>
+
+            <div class="footer-container">
+
+                <div class="footer-box">
+
+                    <h2>ChitraBazzi</h2>
+
+                    <p>
+
+                        Premium Handmade Gifts,
+                        Resin Art,
+                        Crochet Creations,
+                        Personalized Products
+                        and Home Decor.
+
+                    </p>
+
+                </div>
+
+                <div class="footer-box">
+
+                    <h3>Quick Links</h3>
+
+                    <ul>
+
+                        <li><a href="#home">Home</a></li>
+
+                        <li><a href="#categories">Categories</a></li>
+
+                        <li><a href="#best-sellers">Best Sellers</a></li>
+
+                        <li><a href="#reviews">Reviews</a></li>
+
+                        <li><a href="#contact">Contact</a></li>
+
+                    </ul>
+
+                </div>
+
+                <div class="footer-box">
+
+                    <h3>Customer Support</h3>
+
+                    <ul>
+
+                        <li>FAQs</li>
+
+                        <li>Shipping Policy</li>
+
+                        <li>Return Policy</li>
+
+                        <li>Privacy Policy</li>
+
+                    </ul>
+
+                </div>
+
+                <div class="footer-box">
+
+                    <h3>Contact</h3>
+
+                    <p>📍 New Delhi, India</p>
+
+                    <p>📞 +91 8744992822</p>
+
+                    <p>✉ support@chitrabazzi.com</p>
+
+                </div>
+
+            </div>
+
+            <hr>
+
+            <div class="copyright">
+
+                <p>
+
+                    © 2026 ChitraBazzi. All Rights Reserved.
+
+                </p>
+
+            </div>
+
+        </footer>
+
+        <!-- ========================================= -->
+        <!-- Back To Top Button -->
+        <!-- ========================================= -->
+
+        <button id="topBtn">
+
+            ↑
+
+        </button>
 
 
-    <!-- WhatsApp Floating Button -->
+        <!-- WhatsApp Floating Button -->
 
-    <a href="https://wa.me/919319405434"
-    class="whatsapp"
-    target="_blank">
+        <a href="https://wa.me/919319405434"
+        class="whatsapp"
+        target="_blank">
 
-        <i class="fa-brands fa-whatsapp"></i>
+            <i class="fa-brands fa-whatsapp"></i>
 
-    </a>
+        </a>
 
-    <!-- ========================================= -->
-    <!-- JavaScript -->
-    <!-- ========================================= -->
+        <!-- ========================================= -->
+        <!-- JavaScript -->
+        <!-- ========================================= -->
 
-    <script src="js/main.js"></script>
+        <script src="js/main.js"></script>
+        <script src="js/theme.js"></script>
+        <script src="js/settings.js"></script>
 
-    </body>
 
-    </html>
+        </body>
+
+        </html>

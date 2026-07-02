@@ -902,3 +902,52 @@
         renderCartPage();
 
     }
+
+    
+/* ======================================
+        ABOUT SECTION
+====================================== */
+
+const aboutCards = document.querySelectorAll(".about-card");
+
+aboutCards.forEach(card => {
+
+    card.addEventListener("mouseenter", () => {
+
+        card.style.transform = "translateY(-10px)";
+
+    });
+
+    card.addEventListener("mouseleave", () => {
+
+        card.style.transform = "translateY(0)";
+
+    });
+
+});
+
+const aboutSection = document.getElementById("about");
+
+if (aboutSection) {
+
+    const observer = new IntersectionObserver((entries) => {
+
+        entries.forEach(entry => {
+
+            if (entry.isIntersecting) {
+
+                aboutSection.classList.add("show");
+
+            }
+
+        });
+
+    }, {
+
+        threshold: 0.2
+
+    });
+
+    observer.observe(aboutSection);
+
+}

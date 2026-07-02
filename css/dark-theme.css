@@ -1,0 +1,818 @@
+    /* ==========================================
+    CHITRABAZZI GLOBAL DARK THEME
+
+    ========================================== */
+
+    body{
+        transition:background .35s,color .35s;
+    }
+
+    body.dark-mode{
+        background:#0f172a;
+        color:#f8fafc;
+    }
+
+    /* Header */
+
+    body.dark-mode header,
+    body.dark-mode .navbar,
+    body.dark-mode .settings-header{
+        background:#111827 !important;
+        border-bottom:1px solid #334155;
+    }
+
+    body.dark-mode .logo,
+    body.dark-mode .nav-links a,
+    body.dark-mode h1,
+    body.dark-mode h2,
+    body.dark-mode h3,
+    body.dark-mode h4,
+    body.dark-mode p,
+    body.dark-mode span{
+        color:#f8fafc;
+    }
+
+    /* Cards */
+
+    body.dark-mode .card,
+    body.dark-mode .product-card,
+    body.dark-mode .profile-card,
+    body.dark-mode .settings-card,
+    body.dark-mode .review-card{
+        background:#1e293b;
+        color:#fff;
+        border:1px solid #334155;
+        box-shadow:0 12px 30px rgba(0,0,0,.35);
+    }
+
+    /* Links */
+
+    body.dark-mode a{
+        color:#f8fafc;
+    }
+
+    /* Buttons */
+
+    body.dark-mode button{
+        transition:.3s;
+    }
+
+    body.dark-mode .btn,
+    body.dark-mode .buy-btn,
+    body.dark-mode .cart-btn,
+    body.dark-mode .edit-profile-btn{
+        background:#ff7a00;
+        color:#fff;
+    }
+
+    body.dark-mode .logout-btn{
+        background:#ef4444;
+    }
+
+    /* Inputs */
+
+    body.dark-mode input,
+    body.dark-mode textarea,
+    body.dark-mode select{
+        background:#273449;
+        color:#fff;
+        border:1px solid #475569;
+    }
+
+    /* Footer */
+
+    body.dark-mode footer{
+        background:#111827;
+        color:#cbd5e1;
+    }
+
+    /* ==========================================
+    HOME PAGE DARK MODE - PART 1
+    ========================================== */
+
+    body.dark-mode{
+        background:#0f172a !important;
+        color:#f8fafc !important;
+    }
+
+    /* Announcement */
+
+    body.dark-mode .announcement-bar{
+        background:#1e293b;
+        color:#f8fafc;
+    }
+
+    /* Header */
+
+    body.dark-mode header{
+        background:#111827 !important;
+    }
+
+    body.dark-mode .navbar{
+        background:transparent;
+    }
+
+    body.dark-mode .logo h2{
+        color:#ffffff;
+    }
+
+    body.dark-mode .nav-links a{
+        color:#f8fafc;
+    }
+
+    body.dark-mode .nav-links a:hover{
+        color:#ff7a00;
+    }
+
+    body.dark-mode .icons{
+        color:#ffffff;
+    }
+
+    /* Hero */
+
+    body.dark-mode .hero{
+        background:transparent;
+    }
+
+    body.dark-mode .tag{
+        background:#273449;
+        color:#ffb366;
+    }
+
+    body.dark-mode .hero h1{
+        color:#ffffff;
+    }
+
+    body.dark-mode .hero p{
+        color:#cbd5e1;
+    }
+
+    body.dark-mode .shop-btn{
+        background:#ff7a00;
+        color:#fff;
+    }
+
+    body.dark-mode .explore-btn{
+        background:#273449;
+        color:#fff;
+        border:2px solid #ff7a00 !important;
+    }
+
+    /* Today's Offer */
+
+    body.dark-mode .today-offer{
+        background:#1e293b;
+        box-shadow:none;
+    }
+
+    body.dark-mode .offer-left h2{
+        color:#ffffff;
+    }
+
+    body.dark-mode .offer-left p{
+        color:#cbd5e1;
+    }
+
+    body.dark-mode .offer-btn{
+        background:#ff7a00;
+    }
+
+    /* ==========================================
+    HOME PAGE DARK MODE - PART 2
+    ========================================== */
+
+    /* Product */
+
+    body.dark-mode .product-card{
+        background:#1e293b;
+        border:1px solid #334155;
+        box-shadow:0 8px 25px rgba(0,0,0,.35);
+    }
+
+    body.dark-mode .product-card h3,
+    body.dark-mode .product-card p,
+    body.dark-mode .product-card h4{
+        color:#f8fafc;
+    }
+
+    /* Gift Builder */
+
+    body.dark-mode .gift-builder{
+        background:#1e293b;
+    }
+
+    body.dark-mode .gift-form input,
+    body.dark-mode .gift-form textarea,
+    body.dark-mode .gift-form select{
+        background:#273449;
+        color:#fff;
+        border:1px solid #475569;
+    }
+
+    /* Reviews */
+
+    body.dark-mode .review-card{
+        background:#1e293b;
+    }
+
+    body.dark-mode .review-card p{
+        color:#cbd5e1;
+    }
+
+    body.dark-mode .review-card h4{
+        color:#ffb366;
+    }
+
+    /* Newsletter */
+
+    body.dark-mode .newsletter{
+        background:#1e293b;
+    }
+
+    body.dark-mode .newsletter input{
+        background:#273449;
+        color:#fff;
+    }
+
+    body.dark-mode .newsletter button{
+        background:#ff7a00;
+    }
+
+    /* Why Choose Us */
+
+    body.dark-mode .why-card{
+        background:#1e293b;
+    }
+
+    body.dark-mode .why-card h3{
+        color:#ffffff;
+    }
+
+    body.dark-mode .why-card p{
+        color:#cbd5e1;
+    }
+
+    /* Categories */
+
+    body.dark-mode .category-card{
+        background:#1e293b;
+    }
+
+    body.dark-mode .category-card h3{
+        color:#ffffff;
+    }
+
+    /* Section Titles */
+
+    body.dark-mode .section-title h2{
+        color:#ffb366;
+    }
+
+    body.dark-mode .section-title p{
+        color:#cbd5e1;
+    }
+
+    /* Footer */
+
+    body.dark-mode footer{
+        background:#020617;
+    }
+
+    body.dark-mode .footer-box p,
+    body.dark-mode .footer-box li,
+    body.dark-mode .footer-box a,
+    body.dark-mode .copyright{
+        color:#cbd5e1;
+    }
+
+    body.dark-mode footer hr{
+        border-color:#334155;
+    }
+
+    /* Top Button */
+
+    body.dark-mode #topBtn{
+        background:#ff7a00;
+    }
+
+    /* ==========================================
+    HOME PAGE DARK MODE - PART 3
+    ========================================== */
+
+    /* Search Popup */
+
+    body.dark-mode .search-popup{
+        background:rgba(0,0,0,.75);
+    }
+
+    body.dark-mode .search-box{
+        background:#1e293b;
+    }
+
+    body.dark-mode .search-box input{
+        background:#1e293b;
+        color:#ffffff;
+    }
+
+    body.dark-mode .search-box input::placeholder{
+        color:#94a3b8;
+    }
+
+    body.dark-mode .search-results{
+        background:#1e293b;
+    }
+
+    body.dark-mode .search-result-item{
+        background:#1e293b;
+        color:#ffffff;
+        border-bottom:1px solid #334155;
+    }
+
+    body.dark-mode .search-result-item:hover{
+        background:#273449;
+    }
+
+    /* Wishlist Button */
+
+    body.dark-mode .wishlist-btn{
+        background:#273449;
+        color:#ff7a00;
+    }
+
+    body.dark-mode .wishlist-btn:hover,
+    body.dark-mode .wishlist-btn.active{
+        background:#ff7a00;
+        color:#ffffff;
+    }
+
+    /* Icon Buttons */
+
+    body.dark-mode .icon-btn{
+        color:#ffffff;
+    }
+
+    body.dark-mode .icon-btn:hover{
+        color:#ff7a00;
+    }
+
+    /* No Result */
+
+    body.dark-mode .no-result{
+        color:#cbd5e1;
+    }
+
+    /* Badge */
+
+    body.dark-mode .badge{
+        background:#ff7a00;
+    }
+
+    /* Scrollbar */
+
+    body.dark-mode ::-webkit-scrollbar{
+        width:8px;
+    }
+
+    body.dark-mode ::-webkit-scrollbar-track{
+        background:#0f172a;
+    }
+
+    body.dark-mode ::-webkit-scrollbar-thumb{
+        background:#475569;
+        border-radius:20px;
+    }
+
+    body.dark-mode ::-webkit-scrollbar-thumb:hover{
+        background:#64748b;
+    }
+
+    /* ==========================================
+    DARK MODE - PART 4
+    ========================================== */
+
+    /* Search Result */
+
+    body.dark-mode .search-result-item{
+        background:#1e293b;
+        border-bottom:1px solid #334155;
+    }
+
+    body.dark-mode .search-result-item:hover{
+        background:#273449;
+    }
+
+    body.dark-mode .search-result-info h4{
+        color:#ffffff;
+    }
+
+    body.dark-mode .search-result-info span{
+        color:#ff7a00;
+    }
+
+    body.dark-mode .search-no-result{
+        background:#1e293b;
+        color:#cbd5e1;
+    }
+
+    /* Empty Pages */
+
+    body.dark-mode .page-empty{
+        background:#1e293b;
+    }
+
+    body.dark-mode .page-empty h3{
+        color:#ffffff;
+    }
+
+    body.dark-mode .page-empty p{
+        color:#cbd5e1;
+    }
+
+    /* Wishlist / Cart Cards */
+
+    body.dark-mode .page-item-card{
+        background:#1e293b;
+    }
+
+    body.dark-mode .page-item-info h3{
+        color:#ffffff;
+    }
+
+    body.dark-mode .page-item-info p{
+        color:#ffb366;
+    }
+
+    /* Buttons */
+
+    body.dark-mode .page-remove-btn{
+        background:#273449;
+        color:#ff7a00;
+        border:2px solid #ff7a00;
+    }
+
+    body.dark-mode .page-remove-btn:hover{
+        background:#ff7a00;
+        color:#fff;
+    }
+
+    /* Cart Summary */
+
+    body.dark-mode .cart-summary{
+        background:#1e293b;
+    }
+
+    body.dark-mode .cart-summary-row{
+        color:#e2e8f0;
+    }
+
+    body.dark-mode .cart-summary-total{
+        color:#ffffff;
+        border-top:1px solid #334155;
+    }
+
+    /* Quantity Button */
+
+    body.dark-mode .qty-btn{
+        background:#ff7a00;
+    }
+
+    /* About Section */
+
+    body.dark-mode .about{
+        background:#0f172a;
+    }
+
+    body.dark-mode .about-content{
+        background:#1e293b;
+    }
+
+    body.dark-mode .about-content h3{
+        color:#ffb366;
+    }
+
+    body.dark-mode .about-content p{
+        color:#cbd5e1;
+    }
+
+    body.dark-mode .about-card{
+        background:#1e293b;
+    }
+
+    body.dark-mode .about-card h4{
+        color:#ffffff;
+    }
+
+    body.dark-mode .about-card p{
+        color:#cbd5e1;
+    }
+
+    body.dark-mode .about-card:hover{
+        background:linear-gradient(135deg,#ff7a00,#ff9800);
+    }
+
+    body.dark-mode .about .section-title p{
+        color:#cbd5e1;
+    }
+
+/* ==========================================
+   PRODUCT PAGE FIX
+========================================== */
+
+body.dark-mode .product-info{
+    background:#1e293b !important;
+    color:#ffffff !important;
+}
+
+body.dark-mode .product-info h1,
+body.dark-mode .product-info h2,
+body.dark-mode .product-info h3,
+body.dark-mode .product-info p,
+body.dark-mode .product-info span,
+body.dark-mode .product-info .description,
+body.dark-mode .category{
+    color:#ffffff !important;
+}
+
+body.dark-mode .price,
+body.dark-mode .discount{
+    color:#ffb347 !important;
+}
+
+body.dark-mode .old-price{
+    color:#94a3b8 !important;
+}
+
+body.dark-mode .product-details{
+    background:#0f172a !important;
+}
+
+/* PRODUCT EXTRA */
+
+body.dark-mode .info-card{
+    background:#1e293b !important;
+    color:#ffffff !important;
+}
+
+body.dark-mode .info-card h2,
+body.dark-mode .info-card p,
+body.dark-mode .info-card li{
+    color:#ffffff !important;
+}
+
+/* REVIEWS */
+
+body.dark-mode .reviews{
+    background:transparent;
+}
+
+body.dark-mode .rating-summary{
+    color:#ffffff !important;
+}
+
+body.dark-mode .review-note{
+    color:#cbd5e1 !important;
+}
+
+body.dark-mode .review-card{
+    background:#1e293b !important;
+}
+
+body.dark-mode .review-card h4,
+body.dark-mode .review-card p,
+body.dark-mode .review-card span{
+    color:#ffffff !important;
+}
+
+body.dark-mode .review-btn{
+    background:#ff7a00;
+    color:#fff;
+}
+
+/* ==========================================
+   PRODUCT PAGE DARK MODE
+========================================== */
+
+body.dark-mode{
+    background:#0f172a !important;
+}
+
+/* Header */
+
+body.dark-mode .product-header{
+    background:#111827 !important;
+}
+
+body.dark-mode .logo{
+    color:#ffffff !important;
+}
+
+/* Main Image */
+
+body.dark-mode .main-image{
+    background:#1e293b !important;
+}
+
+/* Thumbnail */
+
+body.dark-mode .thumb{
+    background:#1e293b !important;
+}
+
+/* Product Info */
+
+body.dark-mode .product-info{
+    background:#1e293b !important;
+}
+
+body.dark-mode .product-info h1{
+    color:#ffffff !important;
+}
+
+body.dark-mode .category{
+    background:#334155;
+    color:#ffb366 !important;
+}
+
+body.dark-mode .rating span{
+    color:#cbd5e1 !important;
+}
+
+body.dark-mode .description{
+    color:#cbd5e1 !important;
+}
+
+body.dark-mode .stock{
+    background:#1f3d2a;
+    color:#7CFC98 !important;
+}
+
+/* Extra */
+
+body.dark-mode .info-card{
+    background:#1e293b !important;
+}
+
+body.dark-mode .info-card h2{
+    color:#ffb366 !important;
+}
+
+body.dark-mode .info-card p,
+body.dark-mode .info-card li{
+    color:#e2e8f0 !important;
+}
+
+/* Reviews */
+
+body.dark-mode .rating-summary{
+    background:#1e293b !important;
+}
+
+body.dark-mode .rating-summary h3,
+body.dark-mode .rating-summary p{
+    color:#ffffff !important;
+}
+
+body.dark-mode .review-note{
+    color:#cbd5e1 !important;
+}
+
+body.dark-mode .review-card{
+    background:#1e293b !important;
+}
+
+body.dark-mode .review-card h4,
+body.dark-mode .review-card p{
+    color:#ffffff !important;
+}
+
+body.dark-mode .review-card span{
+    color:#7CFC98 !important;
+}
+
+/* Related Products */
+
+body.dark-mode .related-card{
+    background:#1e293b !important;
+}
+
+body.dark-mode .related-card h4{
+    color:#ffffff !important;
+}
+
+body.dark-mode .related-card p{
+    color:#ffb366 !important;
+}
+
+/* Discount Badge */
+
+body.dark-mode .discount{
+    background:#ff7a00 !important;
+    color:#ffffff !important;
+    border:1px solid #ff9800;
+}
+
+/* ==========================================
+   AUTHENTICATION DARK MODE
+   (Login + Register + Profile)
+========================================== */
+
+body.dark-mode{
+    background:#0f172a !important;
+}
+
+/* Login / Register Container */
+
+body.dark-mode .auth-card,
+body.dark-mode .profile-card{
+    background:#1e293b !important;
+    box-shadow:0 15px 35px rgba(0,0,0,.35);
+}
+
+/* Headings */
+
+body.dark-mode .auth-header h2,
+body.dark-mode .profile-header h2{
+    color:#ffffff !important;
+}
+
+body.dark-mode .auth-header p,
+body.dark-mode .profile-header p,
+body.dark-mode .auth-footer p{
+    color:#cbd5e1 !important;
+}
+
+/* Logo */
+
+body.dark-mode .logo{
+    color:#ffb347 !important;
+}
+
+/* Labels */
+
+body.dark-mode .input-box label,
+body.dark-mode .info-box label{
+    color:#ffffff !important;
+}
+
+/* Inputs */
+
+body.dark-mode .input-box input,
+body.dark-mode .info-box input{
+    background:#273449 !important;
+    color:#ffffff !important;
+    border:2px solid #475569 !important;
+}
+
+body.dark-mode .input-box input::placeholder{
+    color:#94a3b8;
+}
+
+/* Password Eye */
+
+body.dark-mode .togglePassword{
+    color:#cbd5e1;
+}
+
+/* Options */
+
+body.dark-mode .auth-options label,
+body.dark-mode .terms label{
+    color:#cbd5e1 !important;
+}
+
+body.dark-mode .auth-options a,
+body.dark-mode .terms a,
+body.dark-mode .auth-footer a{
+    color:#ffb347 !important;
+}
+
+/* Buttons */
+
+body.dark-mode .auth-btn{
+    background:#ff7a00 !important;
+}
+
+body.dark-mode .secondary-btn{
+    background:#334155 !important;
+}
+
+body.dark-mode .logout-btn{
+    background:#ef4444 !important;
+}
+
+/* Avatar */
+
+body.dark-mode .profile-avatar{
+    background:#ff7a00;
+}
+
+/* Success & Error */
+
+body.dark-mode .success{
+    color:#7CFC98;
+}
+
+body.dark-mode .error{
+    color:#ff8a80;
+}
+
